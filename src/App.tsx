@@ -110,18 +110,18 @@ function App() {
               </a>
             </div>
             <div className="flex flex-row">
-              <img src="public/assets/icon-company.svg" alt="" className="w-[20px] h-[20px] mr-2" />
+              <img src="/assets/icon-company.svg" alt="" className="w-[20px] h-[20px] mr-2" />
               <span className="text-white">{user?.company || "N/A"}</span>
             </div>
             <div className="flex flex-row">
               <div>
-                <img src="public/assets/react.svg" alt="" className="w-[20px] h-[20px] mr-2" />
+                <img src="/assets/react.svg" alt="" className="w-[20px] h-[20px] mr-2" />
               </div>
               <span className="mr-1">Hireable: </span>
               <span className="text-white">{user?.hireable ? "Yes" : "No"}</span>
             </div>
             <div className="flex flex-row">
-              <img src="public/assets/icon-twitter.svg" alt="" className="w-[20px] h-[20px] mr-2" />
+              <img src="/assets/icon-twitter.svg" alt="" className="w-[20px] h-[20px] mr-2" />
               <span className="text-white">{user?.twitter_username || "N/A"}</span>
             </div>
           </div>
